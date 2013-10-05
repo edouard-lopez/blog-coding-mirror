@@ -1,7 +1,7 @@
-.archives{
+.archives {
 	position: relative;
-	&:last-of-type{
-		&:before{
+	&:last-of-type {
+		&:before {
 			content: "";
 			position: absolute;
 			bottom: 0;
@@ -9,14 +9,14 @@
 			border-top: 1px solid $color-gray04;
 		}
 	}
-	.year{
+	.year {
 		line-height: 35px;
 		width: 200px;
 		position: absolute;
 		top: 0;
 		padding-top: 15px;
 		border-top: 1px solid #fff;
-		&:before{
+		&:before {
 			content: "";
 			position: absolute;
 			top: -2px;
@@ -28,46 +28,46 @@
 			width: 100%;
 		}
 	}
-	article{
+	article {
 		margin-left: 200px;
 		padding: 15px 0;
 		@media screen and (max-width: 600px){
 			margin-left: 0;
-			&:first-of-type{
+			&:first-of-type {
 				border-top: none;
 				padding-top: 30px;
 			}
 		}
-		.title{
+		.title {
 			margin-bottom: 0;
 		}
-		.meta{
+		.meta {
 			color: $color-gray02;
-			font-size: 0.9em;
-			line-height: 2;
+			font-size: $meta-font-size;
+			line-height: $lineHeight-default;
 			margin-top: 15px;
 			@media screen and (max-width: 600px){
 				display: none;
 			}
-			span{
+			span {
 				margin-right: 30px;
 				@include inline-block;
-				&:before{
+				&:before {
 					color: $color-gray03;
 					font: 1.3em $font-icon;
 					padding-right: 10px;
 				}
 			}
-			a{
+			a {
 				color: $color-gray02;
 				@include transition(0.3s);
-				&:hover{
+				&:hover {
 					color: $color-gray01;
 				}
 			}
-			.date:before{content: "\f073";}
-			.tags:before{content: "\f02c";}
-			.comments:before{content: "\f075";}
+			.date:before {content: "\f073";}
+			.tags:before {content: "\f02c";}
+			.comments:before {content: "\f075"; padding-right: 10px; }
 		}
 	}
 }
