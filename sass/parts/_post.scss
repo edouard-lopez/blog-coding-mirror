@@ -1,60 +1,70 @@
-.post{
-	 .entry-content{
-		margin-left: 260px;
-		@media screen and (max-width: 620px){
-			margin-left: 0px;
+.post {
+	h1.title, .entry-content {
+		clear: left;
+		margin-left: 200px;
+		@media screen and (max-width: 800px){
+			margin-left: 0;
 		}
-		@media screen and (max-width: 480px) {
-			margin-left: 0px;
-			}
 	}
-	.meta{
-		position: absolute;
-		top: 115px;
-		line-height: 2;
-		font-size: 0.9em;
-		color: #333;
+	h1.title {
+		a {
+			border-bottom: none;
+ 		}
+	}
+	.meta {
+		line-height: $lineHeight-default;
+		font-size: $meta-font-size;
+		color: $meta-color;
 		width: 170px;
-		@media screen and (max-width: 620px){
+		@media screen and (max-width: 800px){
 			margin-top: 15px;
 			position: static;
 			width: auto;
 		}
 		a {
- 			text-decoration:none;
-			color:#333;
-			-webkit-transition:border .25s linear;
-			-moz-transition:border .25s linear;
-			-ms-transition:border .25s linear;
-			transition:border .25s linear;
-			outline:none;
+			@include link-colors($meta-color, $carillon);
+			@include transition(0.3s);
+			border-bottom: none;
 		}
-
-		a:link,a:visited {
-			border-bottom:1px solid rgba(191,2,34,0);
-		}
-
-		a:hover {
-			border-bottom:1px solid #bf0222;
-		}
-		.date, .tags, .comments{
-			padding-left: 30px;
+		$meta-padding: 1em;
+		.date, .tags, .comments {
+			padding-left: $meta-padding * 2;
+			padding-right: $meta-padding / 2;
 			position: relative;
-			&:before{
-				color: $color-gray01;
+			&:before {
+				color: $color-gray03;
 				font: 1.3em $font-icon;
 				line-height: 1.6em;
 				position: absolute;
 				left: 0;
 			}
-	
-			@media screen and (max-width: 620px){
+			@media screen and (max-width: 800px){
 				@include inline-block;
-				margin-right: 30px;
+				margin-right: $meta-padding * 2;
 			}
 		}
-		.date:before{content: "\f073";}
-		.tags:before{content: "\f02c";}
-		.comments:before{content: "\f075";}
+		.date {
+			float: left;
+			&:after {
+				content: ':';
+				padding-left: $meta-padding / 4;
+		  }
+			// &:before {content: "\f073";}
+		}
+		.tags{
+			// &:before {content: "\f02c";}
+		}
+		.comments {
+			// &:before {content: "\f075";}
+		}
+	}
+  hr {
+		height: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-left: 0;
+		border-right: 0;
+		border-top: 1px solid #DDD;
+		border-bottom: 1px solid #FFF;
 	}
 }

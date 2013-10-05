@@ -1,4 +1,4 @@
-#banner{
+#banner {
 	color: $color-gray02;
 	padding: 30px 0;
 	line-height: 30px;
@@ -6,40 +6,40 @@
 	position: relative;
 	display: none;
 	@include border-shadow();
-	&:hover{
-		a{
+	&:hover {
+		a {
 			color: $color-main;
 		}
 	}
-	a{
+	a {
 		color: $color-gray02;
 		@include transition(0.3s);
-		&:hover{
+		&:hover {
 			text-decoration: underline;
 		}
 	}
-	small{
+	small {
 		position: absolute;
 		right: 0;
 		bottom: 0;
 	}
-	.loading{
+	.loading {
 		background: image-url('loading_pacman.gif') center no-repeat;
 		text-indent: -9999px;
 	}
-	.container{
+	.container {
 		height: 30px;
 		overflow: hidden;
 		position: relative;
 		display: none;
-		.feed{
+		.feed {
 			list-style: none;
 			position: absolute;
 			top: 0;
 			width: 100%;
-			li{
+			li {
 				position: relative;
-				small{
+				small {
 					position: absolute;
 					right: 0;
 				}

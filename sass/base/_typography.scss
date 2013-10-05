@@ -1,3 +1,53 @@
+$lineHeight-default: 1.5em;
+$code-font-size: 1em;
+$meta-font-size: .9em;
+
+@mixin inline-code {
+  background: none repeat scroll 0% 0% $thin-highlight;
+  white-space: nowrap;
+  // color: darken($color-body, 20%);
+  line-height: 1.2;
+  font-size: $code-font-size;
+  position: relative;
+  top: -1px;
+}
+
+@mixin sweet-frame {
+  padding: 0.1em 0.4em;
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px rgb(255, 255, 255) inset;
+  border-radius: 3px;
+}
+
+@mixin border-bottom-colors($default:$carillon, $hover:$color-gray04) {
+  border-bottom: 1px solid $default;
+  &:hover {
+    border-bottom-color: $hover;
+  }
+}
+
+
+body {
+  color: $color-body;
+  font-family: $font-default;
+  font-weight: 300;
+  font-size: 14px;
+  background: $color-background $bg-noise;
+
+  @media screen and (max-width: 1040px){
+    margin: 0 20px;
+  }
+  @media screen and (max-width: 600px){
+    font-size: 13px;
+  }
+}
+
+:not(#header a) {
+  text-decoration: none;
+  @include border-bottom-colors;
+}
+
+
 .pullquote-right:before,
 .pullquote-left:before {
   /* Reset metrics. */
@@ -23,4 +73,13 @@
   /* Make left pullquotes align properly. */
   float: left;
   margin: .5em 1.5em 1em 0;
+}
+
+kbd {
+  @include inline-code;
+  @include sweet-frame;
+ font-variant: small-caps;
+  display: inline-block;
+  margin: 0px 0.1em;
+  text-shadow: 0px 1px 0px rgb(255, 255, 255);
 }

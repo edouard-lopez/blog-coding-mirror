@@ -1,7 +1,17 @@
-$color-background: #eee !default;
-$color-main: #258fb8 !default;
-$color-gray01: #333 !default;
-$color-gray02: #999 !default;
-$color-gray03: #ccc !default;
-$color-gray04: #ddd !default;
-$color-gray05: #fff !default;
+$color-background: #333;
+$color-main: #258fb8;
+$color-gray01: #666;
+$color-gray02: #999;
+$color-gray03: #ccc;
+$color-gray04: #ddd;
+$color-gray05: #fff;
+
+$bg-noise: url("/images/noise.png");
+$carillon: #4183C4;
+
+$color-selection: $carillon;
+$color-body: $color-gray01;
+$thin-highlight: #F7F7F7;
+$pre-border: #FFF;
+$meta-color: #ccc;
+$heading-color: #333;

@@ -1,38 +1,38 @@
-#pagenavi{
+#pagenavi {
 	padding: 20px 0;
 	height: 20px;
 	line-height: 20px;
 	position: relative;
 	@include border-shadow();
-	a{
-		&:hover{
+	a {
+		&:hover {
 			text-decoration: underline;
 		}
 	}
-	.prev, .next{
+	.prev, .next {
 		position: absolute;
 	}
-	.prev{
+	.prev {
 		padding-left: 30px;
 		left: 0;
-		&:before{
+		&:before {
 			content: "\f060";
 			font: 1.3em $font-icon;
 			position: absolute;
 			left: 0;
 		}
 	}
-	.next{
+	.next {
 		padding-right: 30px;
 		right: 0;
-		&:before{
+		&:before {
 			content: "\f061";
 			font: 1.3em $font-icon;
 			position: absolute;
 			right: 0;
 		}
 	}
-	.center{
+	.center {
 		text-align: center;
 		width: 100%;
 		display: block;
