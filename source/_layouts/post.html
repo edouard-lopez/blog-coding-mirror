@@ -3,13 +3,26 @@ layout: default
 single: true
 ---
 
-<article class="post">{% include article.html %}</article>
+<!-- Sharing button -->
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
 {% unless page.sharing == false %}
 	{% include post/sharing.html %}
 {% endunless %}
+
+<!-- List of related posts -->
+{% if site.related_posts | size > 1 %}
+<section id="related-posts">
+    <h2 class="title">Related Posts</h2>
+    <ul class="related" aria-live="polite">
+      {% include post/related_posts.html %}
+    </ul>
+</section>
+{% endif %}
+
+<!-- Comment section -->
 {% if site.disqus_short_name and page.comments == true %}
 <section id="comment">
-    <h2 class="title">Comments</h2>
+    <h1 class="title">Comments</h1>
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
 </section>
 {% endif %}
