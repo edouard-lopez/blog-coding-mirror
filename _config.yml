@@ -75,6 +75,9 @@ default_asides: [
 # Custom setting
 custom_cv_url: http://edouard-lopez.com/cv/
 
+# LinkedIn
+linkedin_user: edouardlopez
+
 # Gravatar
 # gravatar_email: edouard.lopez+www@gmail.com
 
