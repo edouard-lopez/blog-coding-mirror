@@ -72,6 +72,9 @@ default_asides: [
 #   3rd Party Settings    #
 # ----------------------- #
 
+# Custom setting
+custom_cv_url: http://edouard-lopez.com/cv/
+
 # Gravatar
 # gravatar_email: edouard.lopez+www@gmail.com
 
