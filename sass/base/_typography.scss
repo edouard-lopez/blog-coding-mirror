@@ -20,7 +20,7 @@ $meta-font-size: .9em;
 }
 
 @mixin border-bottom-colors($default:$carillon, $hover:$color-gray04) {
-  border-bottom: 1px solid $default;
+  border-bottom: 1px dashed $default;
   &:hover {
     border-bottom-color: $hover;
   }
