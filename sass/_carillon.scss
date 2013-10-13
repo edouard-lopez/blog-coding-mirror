@@ -85,9 +85,20 @@
 			#content {
 				width: 100%;
 				article {
-					border-top: none;
-					margin-bottom: 2em;
-					padding-bottom: 2em;
+					border: none;
+					&::after {
+					    content: '⁂';
+					    color: #ddd;
+					    font-size: 1em;
+					    font-weight: normal;
+					    text-align: center;
+					    margin: 3em 25% 0;
+					    width: auto;
+					    display: block;
+							padding-top: .5em;
+					    border-top: 1px dotted #ddd;
+					    text-shadow: 0 0 1px #fff;
+						}
 					.title {
 						margin-left: 0px;
 					}
