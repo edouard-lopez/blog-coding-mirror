@@ -7,7 +7,7 @@ categories: [tmux, vim, solved]
 ---
 
 So the other day I [installed `tmux`](install-and-using-tmux-on-linux-mint-ubuntu) and when working in `vim` I noticed that <kbd>Home</kbd> and <kbd>End</kbd> keys stopped working.
-
+<!--more-->
 ## Why?
 If you set your `tmux` to use `screen-256color` it will break the <kbd>Home</kbd> and <kbd>End</kbd> keys behavoir (to jump to the beginning/end of a line).
 

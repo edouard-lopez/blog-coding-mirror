@@ -6,7 +6,7 @@ comments: true
 categories: [tmux, productivity, concept]
 ---
 Tmux is a multiplexer, which means you can [manage several virtual terminals in one windows](https://en.wikipedia.org/wiki/Tmux).
-
+<!--more-->
 ## Client and Server
 Tmux works with **two distinct processes**, one is going to be a client and the other a server – running in the background, _i.e._ a daemon. Different processes means, you can kill the client while the server will stay alive.
 

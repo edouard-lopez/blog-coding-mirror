@@ -8,7 +8,7 @@ categories: [UX, Firefox]
 ---
 
 I'm a long time Firefox user, and I'm happy to see it being at the lead of web technology again. So when the [news about Australis](https://twitter.com/MozillaUX/status/386418196473217024) – the upcoming desktop Firefox design refresh – came from the [MozSummit](https://wiki.mozilla.org/Summit2013) I went to get my hands on it and have a ride.
-
+<!--more-->
 So _Australis_ idea to to redesign the [_Tab Strip_ UI](https://wiki.mozilla.org/Tab_Strip_Visual_Redesign).
 
 {% img left http://getaustralis.com/images/image-mainWindow.png 'Firefox Australis, new UX' %}

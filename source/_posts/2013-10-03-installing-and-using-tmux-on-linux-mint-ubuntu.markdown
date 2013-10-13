@@ -7,8 +7,8 @@ categories: [tmux, shell, productivity, how-to]
 ---
 ## What can it do for you?
 * You can <strong>detach a session and later attach it back</strong> to finish what you started (think remote/SSH here).
-* You can work with others people on the same document, this is also called <em>peer programming/editing</em> ;
-
+* You can work with others people on the same document, this is also called <em>peer programming/editing</em> :
+<!--more-->
 ## Install
 ```bash
 apt-get install tmux

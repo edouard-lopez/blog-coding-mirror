@@ -8,7 +8,7 @@ categories: [ tmux, configuration, solved, UX ]
 ---
 
 I'm going to provide some way to tweak the reactivity of your `tmux`, and so each config should be added to your `~/.tmux.conf`.
-
+<!--more-->
 ## Speed up command sequence
 
 By default, there is a latency time when hitting the <kbd>PREFIX</kbd> because `tmux` is [waiting for an escape sequence](http://mutelight.org/practical-tmux):

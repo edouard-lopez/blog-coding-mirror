@@ -7,7 +7,7 @@ categories: [solved, sublime-text, octopress, configuration]
 ---
 
 [Octopress](http://octopress.org/) is a blog framework build on top of [Jekyll](http://github.com/mojombo/jekyll), the blog-aware static site generator powering [Github Pages](http://pages.github.com/). So it's a blog's boilerplate working with [Markdown](http://daringfireball.net/projects/markdown/basics) documents.
-
+<!--more-->
 Assuming you didn't already installed [`Octopress` plugin for Sublime Text 2](https://github.com/blueplanet/sublime-text-2-octopress), you can install it using [Package Control](https://sublime.wbond.net/).
 
 ## Sublime Text Configuration
