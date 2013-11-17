@@ -42,3 +42,7 @@ Evan Travers give a pretty good definition of those concept in its article [Work
 
 * <kbd>→</kbd> or <kbd>←</kbd>: navigation through panes ;
 * <kbd>x</kbd>: closing a pane ; you can also use <kbd>Ctrl</kbd>+<kbd>d</kbd>, which is probably more familiar and doesn't ask for confirmation.
+
+## References
+
+* [tmux Tutorial - Split Terminal Windows Easily](http://lukaszwrobel.pl/blog/tmux-tutorial-split-terminal-windows-easily)
