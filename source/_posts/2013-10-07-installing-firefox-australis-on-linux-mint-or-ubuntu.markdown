@@ -24,7 +24,7 @@ Except if you know how this things work, which means [hitting directly the direc
 
 ### Installation for `x86` Architecture
 
-Simply go to the official [Australis](http://gtaustralis.com/) website, download, extract and run the Linux archive.
+Simply go to the official [Australis](http://getaustralis.com/) website, download, extract and run the Linux archive.
 
 ### Installation for `x86_64` Architecture
 
@@ -52,6 +52,6 @@ Be aware that this this kind of detection can **sometimes come in the way** of t
 
 LastPass implementation is nice, as they provide a recommended download, based on their detection, but still **give the possibility** to switch to a different option. 
 
-So don't assume to much on what users are going to do as it can backfire.
+So don't assume too much on what users are going to do as it can backfire.
 
 
