@@ -1,0 +1,17 @@
+<h3 class="hide">Content license</h3>
+<p>
+  <span class="hide" xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ site.title }}
+  </span>
+
+  <span class="hide">
+    by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.author_url }}" property="cc:attributionName" rel="cc:attributionURL">{{ site.author }}</a>
+  </span>
+   content is under <a rel="license" href="{{ site.license_url }}">
+   {{ site.license_name }}</a> license.
+
+  {% if site.license_img %}
+  <a rel="license" href="{{ site.license_url }}">
+    <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" />
+  </a>
+  {% endif %}
+</p>
