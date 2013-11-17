@@ -1,6 +1,9 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
-  {% endif %}
-</hgroup>
+{% if site.author %}
+<section id='legal'>
+    <a href="{{ root_url }}legal.html">Legal stuff</a>
+</section>
+{% endif %}
+
+{% if site.license %}
+  {% include license.html %}
+{% endif %}

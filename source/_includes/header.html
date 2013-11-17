@@ -10,7 +10,15 @@
 	</script>
 	{% endif %}
 </div>
-{% include custom/header.html %}
+
+<hgroup>
+  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+  {% if site.subtitle %}
+    <h2>{{ site.subtitle }}</h2>
+  {% endif %}
+</hgroup>
+
+
 <nav id="main-nav">{% include navigation.html %}</nav>
 <nav id="sub-nav">
 	<div class="social">
@@ -48,4 +56,15 @@
 		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
 		{% endif %}
 	</div>
+
+	{% if site.author %}
+	<section id='legal'>
+	  <a href="{{ root_url }}/legal.html">Legal stuff</a>
+
+		{% if site.license_name %}
+		  {% include license.html %}
+		{% endif %}
+	</section>
+	{% endif %}
 </nav>
+
