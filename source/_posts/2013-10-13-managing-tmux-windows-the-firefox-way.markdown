@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Manage Tmux windows the Firefox way"
+title: "Managing Tmux' windows the Firefox way"
 date: 2013-10-13 19:22
 comments: true
+tags: [ tmux, configuration, productivity ]
 categories: [ tmux, configuration, productivity ]
 ---
 
@@ -24,12 +25,14 @@ Before I go further, and as most of you already know ([<abbr title="Read The Fuc
 
 I like to have consistent behaviors between my applications. So below is the `tmux` configuration to have the same shortcuts –to open and navigate tabs– as the one in `Firefox`. Edit your `~/.tmux.conf` to add the binding.
 
-```bash Configuration to open new tab with <kbd>Ctrl</kbd>+<kbd>t</kbd>
+```bash 
+# Configuration to open new tab with <kbd>Ctrl</kbd>+<kbd>t</kbd>
 # Ctrl-t opens new tab (window)
 bind-key -n C-t new-window
 ```
 
-```bash Configuration to switch tabs with <kbd>Ctrl</kbd>+<kbd>PageUp</kbd> and <kbd>Ctrl</kbd>+<kbd>PageDown</kbd>
+```bash 
+# Configuration to switch tabs with <kbd>Ctrl</kbd>+<kbd>PageUp</kbd> and <kbd>Ctrl</kbd>+<kbd>PageDown</kbd>
 # PageUp to switch to previous tab
 bind-key -n C-PPage previous-window
 # PageDown to switch to next tab
