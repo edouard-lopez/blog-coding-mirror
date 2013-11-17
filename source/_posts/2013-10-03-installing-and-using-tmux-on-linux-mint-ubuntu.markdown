@@ -3,7 +3,8 @@ layout: post
 title: "Installing and using tmux on Linux Mint (Ubuntu)"
 date: 2013-10-03 17:45
 comments: true
-categories: [tmux, shell, productivity, how-to]
+tags: [ tmux, shell, productivity, how-to ]
+categories: [ tmux, shell, productivity, how-to ]
 ---
 ## What can it do for you?
 * You can <strong>detach a session and later attach it back</strong> to finish what you started (think remote/SSH here).

@@ -4,7 +4,8 @@ title: "Installing Firefox Australis on Linux Mint or Ubuntu"
 date: 2013-10-07 11:30
 comments: true
 published: true
-categories: [UX, Firefox]
+tags: [ UX, Firefox, install ]
+categories: [ UX, Firefox, install ]
 ---
 
 I'm a long time Firefox user, and I'm happy to see it being at the lead of web technology again. So when the [news about Australis](https://twitter.com/MozillaUX/status/386418196473217024) – the upcoming desktop Firefox design refresh – came from the [MozSummit](https://wiki.mozilla.org/Summit2013) I went to get my hands on it and have a ride.

@@ -4,6 +4,7 @@ title: "Improving commands reactivity on Tmux"
 date: 2013-10-09 18:13
 comments: true
 <!-- published: false -->
+tags: [ tmux, configuration, UX ]
 categories: [ tmux, configuration, UX ]
 ---
 

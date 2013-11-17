@@ -3,7 +3,8 @@ layout: post
 title: "Tmux principles"
 date: 2013-10-03 16:30
 comments: true
-categories: [tmux, productivity, concept]
+tags: [ tmux, productivity, concept ]
+categories: [ tmux, productivity, concept ]
 ---
 Tmux is a multiplexer, which means you can [manage several virtual terminals in one windows](https://en.wikipedia.org/wiki/Tmux).
 <!--more-->
