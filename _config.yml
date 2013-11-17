@@ -75,6 +75,14 @@ default_asides: [
 # Custom setting
 custom_cv_url: http://edouard-lopez.com/cv/
 
+# when author has a different URL
+author_url: http://edouard-lopez.com/
+license_name: CC-By-SA
+# license_name: Creative Commons Attribution-ShareAlike 3.0 License
+license_url: http://creativecommons.org/licenses/by-sa/3.0/
+# Display image or not
+license_img: false
+
 # LinkedIn
 linkedin_user: edouardlopez
 
