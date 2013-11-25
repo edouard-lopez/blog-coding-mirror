@@ -42,14 +42,10 @@ No needs my friends. Here is [the source](https://github.com/edouard-lopez/dotfi
     e() {
       f="$1"
 
-      owner="$(stat -c '%G:%U' "$f")" # file ownership's information
-      ownerUser="${owner%%:*}"
-      ownerGroup="${owner##*:}"
-
-      if [[ $ownerUser = 'root' || $ownerGroup = 'root' ]]; then
-        sudo $EDITOR "$f"
+      if [[ -w "$f" ]]; then
+        "$EDITOR" "$f"
       else
-        $EDITOR "$f"
+        sudo -e "$f"
       fi
     }
 ```
@@ -57,3 +53,20 @@ No needs my friends. Here is [the source](https://github.com/edouard-lopez/dotfi
 Don't like `e` and prefer to use `v` ? 
 No problem, there is room for improvement, feel free to [fork and submit pull requests](https://github.com/edouard-lopez/dotfiles/fork).
   
+### Update (`2013-nov-19`)
+
+I switch my complex ownership test to a [`POSIX` compatible using the `-w` flag](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/test.html#tag_20_128_04) :
+```bash
+-w FILE        True if the file is writable by you.
+```
+After a discussion on `#bash` IRC channel, I also switch to [`sudo -e ` for security reasons](http://linuxcommand.org/man_pages/sudoedit8.html) :
+
+* `sudo -e`:
+    * Copies to a temp file, runs the editor as your user, and on a clean exit, copies back plus that locking thing (_i.e._ works on copy) ;
+    * The editor has **your settings**, your syntax highlighting, your indentation settings, etc. ;
+    * It also means you don't accidentally open **others** files as root with that editor ;
+    * `gvim` user will need to set `EDITOR='gvim -f'` ;
+* while <del>`sudo "$EDITOR"`</del> :
+    * Open file as root (work in place) ;
+    * A user could have **anything** set as their `$EDITOR` (security!) ;
+    * The way `sudo "$EDITOR"` plays with your environment won't be nice.
