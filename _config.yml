@@ -73,7 +73,7 @@ default_asides: [
 # ----------------------- #
 
 # Custom setting
-custom_cv_url: http://edouard-lopez.com/cv/
+custom_cv_url: http://edouard-lopez.com/cv
 
 # when author has a different URL
 author_url: http://edouard-lopez.com/
