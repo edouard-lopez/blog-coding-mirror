@@ -5,6 +5,7 @@ date: 2013-11-19 17:24
 comments: true
 tags: [ install, nodejs, npm, ubuntu, ubuntu-13.10 ]
 categories: [ install, nodejs, npm, ubuntu, ubuntu-13.10 ]
+published: true
 ---
 
 Actually `nodejs` and `npm` have **merged into the `nodejs`** package.

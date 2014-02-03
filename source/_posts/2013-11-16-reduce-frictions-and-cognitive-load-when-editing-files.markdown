@@ -5,6 +5,7 @@ date: 2013-11-16 23:34
 comments: true
 tags: [ shell, productivity, vim, UX ]
 categories: [ shell, productivity, vim, UX ]
+published: true
 ---
 
 As a Linux/Mac user you have already edited file using the command line editor (_e.g._ `vim`, `nano`, `emacs`, etc.). And **you repeat this** tens to hundreds times a day. So what the problem ? 

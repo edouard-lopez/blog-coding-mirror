@@ -5,6 +5,7 @@ date: 2013-11-25 12:46
 comments: true
 tags: [ IRC, weechat, install, ubuntu ]
 categories: [ IRC, weechat, install, ubuntu ]
+published: true
 ---
 
 `WeeChat` is an IRC client with a text-based user interface. It is designed to be **light, fast and extensible** with plugins (<abbr title="also known as">aka</abbr> scripts). 

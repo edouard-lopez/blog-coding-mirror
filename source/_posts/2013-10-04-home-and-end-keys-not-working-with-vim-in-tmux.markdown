@@ -5,6 +5,7 @@ date: 2013-10-04 09:35
 comments: true
 tags: [ tmux, vim, solved ]
 categories: [ tmux, vim, solved ]
+published: true
 ---
 
 So the other day I [installed `tmux`](install-and-using-tmux-on-linux-mint-ubuntu) and when working in `vim` I noticed that <kbd>Home</kbd> and <kbd>End</kbd> keys stopped working.

@@ -3,9 +3,9 @@ layout: post
 title: "Improving commands reactivity on Tmux"
 date: 2013-10-09 18:13
 comments: true
-<!-- published: false -->
 tags: [ tmux, configuration, UX ]
 categories: [ tmux, configuration, UX ]
+published: true
 ---
 
 I'm going to describe how you can improve the reactivity of your `tmux` commands. All configuration should be added to your `~/.tmux.conf`.

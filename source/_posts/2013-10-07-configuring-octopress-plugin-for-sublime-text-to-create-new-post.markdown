@@ -5,6 +5,7 @@ date: 2013-10-07 11:31
 comments: true
 tags: [ solved, sublime-text, octopress, configuration ]
 categories: [ solved, sublime-text, octopress, configuration ]
+published: true
 ---
 
 [Octopress](http://octopress.org/) is a blog framework build on top of [Jekyll](http://github.com/mojombo/jekyll), the blog-aware static site generator powering [Github Pages](http://pages.github.com/). So it's a blog's boilerplate working with [Markdown](http://daringfireball.net/projects/markdown/basics) documents.

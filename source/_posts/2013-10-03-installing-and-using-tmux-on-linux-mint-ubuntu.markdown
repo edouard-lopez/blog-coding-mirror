@@ -5,6 +5,7 @@ date: 2013-10-03 17:45
 comments: true
 tags: [ tmux, shell, productivity, how-to ]
 categories: [ tmux, shell, productivity, how-to ]
+published: true
 ---
 ## What can it do for you?
 * You can <strong>detach a session and later attach it back</strong> to finish what you started (think remote/SSH here).

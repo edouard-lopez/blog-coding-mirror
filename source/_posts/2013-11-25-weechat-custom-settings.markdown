@@ -5,7 +5,7 @@ date: 2013-11-25 14:26
 comments: true
 tags: [ IRC, weechat, tips ]
 categories: [ IRC, weechat, tips ]
-<!-- published: false -->
+published: true
 ---
 
 After an `upgrade` I lost all my `weechat` configurations, so here is a quick start to get the follow results.

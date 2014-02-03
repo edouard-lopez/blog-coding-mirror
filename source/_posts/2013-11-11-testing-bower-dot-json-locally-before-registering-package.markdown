@@ -4,6 +4,7 @@ title: "Testing bower.json locally before registering package"
 date: 2013-11-11 19:30
 comments: true
 categories: [ bower, git, testing ]
+published: true
 ---
 
 Working on [Erase All the Kittens](https://github.com/SomeHats/Erase-All-Kittens) project to add support for [localization](https://github.com/fabi1cazenave/webL10n), I needed to create and test a local bower package. Here is how to do it.

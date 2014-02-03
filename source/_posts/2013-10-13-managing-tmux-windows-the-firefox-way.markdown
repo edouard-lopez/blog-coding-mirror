@@ -5,6 +5,7 @@ date: 2013-10-13 19:22
 comments: true
 tags: [ tmux, configuration, productivity ]
 categories: [ tmux, configuration, productivity ]
+published: true
 ---
 
 When switching to `tmux` I found the default configuration to manage and navigate among windows quite annoying. Even more considering I had to press the <kbd>PREFIX</kbd> key with yet further shortcuts to do the same old thing (open/switch tabs). So here I explain how to:
