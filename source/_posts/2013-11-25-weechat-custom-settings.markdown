@@ -42,6 +42,7 @@ Then set our configurations:
 /set irc.server.freenode.realname "Édouard Lopez"
 /set irc.server.freenode.away_check 15
 ```
+Why using `cameron.freenode.net` ? Cause it support [`SSL` and is located in Lithuania](http://freenode.net/irc_servers.shtml).
 
 ## Mozilla
 Here I won't be using `SSL`, so it's a bit simpler. Also I duplicate settings for this server:
