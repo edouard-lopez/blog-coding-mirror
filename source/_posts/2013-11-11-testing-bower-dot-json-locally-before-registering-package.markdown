@@ -9,12 +9,12 @@ published: true
 
 Working on [Erase All the Kittens](https://github.com/SomeHats/Erase-All-Kittens) project to add support for [localization](https://github.com/fabi1cazenave/webL10n), I needed to create and test a local bower package. Here is how to do it.
 
-## Bower 
+## Bower
 
 The big idea with [`bower`](https://github.com/bower/bower) is to easily share your projects' dependencies. So **using local repository should be limited to testing**.
 
-Once you understand that, you should know that it is not –strictly– necessary to [`register` your package](https://github.com/bower/bower#registering-packages) in order to use it as a dependency. 
-This is due to the fact that `bower` dependencies can specify either a *version*, a *folder* or a _package_. So **you can use local repository**. 
+Once you understand that, you should know that it is not –strictly– necessary to [`register` your package](https://github.com/bower/bower#registering-packages) in order to use it as a dependency.
+This is due to the fact that `bower` dependencies can specify either a *version*, a *folder* or a _package_. So **you can use local repository**.
 
 ## Define as bower package
 
@@ -28,7 +28,7 @@ bower init
 ```
 ## Add as project dependency
 
-Then in your main project, the one that need the `you-need-me` dependency, edit `bower.json` file to add (or expand): 
+Then in your main project, the one that need the `you-need-me` dependency, edit `bower.json` file to add (or expand):
 
 ```json
       "dependencies": {
@@ -40,7 +40,7 @@ Then in your main project, the one that need the `you-need-me` dependency, edit 
 
 So you don't give a version, but an local `git` endpoint, i.e. **the subdirectory `.git/`**.
 
-## Install dependency 
+## Install dependency
 
 In the man project install bower dependencies with:
 
@@ -48,7 +48,7 @@ In the man project install bower dependencies with:
 cd /path/to/main-project/
 bower install
 ```
-### Failure 
+### Failure
 
 ```bash
 bower you-need-me#*              ENOTFOUND Package /path/to/you-need-me/ not found
@@ -78,5 +78,5 @@ Registering is quite simple and you should [know the prerequisites before doing 
 To register, specify the end point and the endpoint to use to fetch the dependency (i.e. `git clone`):
 
 ```bash
-bower register fake-projet git@github.com:anonymous/fake-projet.git 
+bower register fake-projet git@github.com:anonymous/fake-projet.git
 ```

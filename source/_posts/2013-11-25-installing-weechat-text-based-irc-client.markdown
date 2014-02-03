@@ -8,7 +8,7 @@ categories: [ IRC, weechat, install, ubuntu ]
 published: true
 ---
 
-`WeeChat` is an IRC client with a text-based user interface. It is designed to be **light, fast and extensible** with plugins (<abbr title="also known as">aka</abbr> scripts). 
+`WeeChat` is an IRC client with a text-based user interface. It is designed to be **light, fast and extensible** with plugins (<abbr title="also known as">aka</abbr> scripts).
 
 Since its first release in 2003, an [Android client](https://github.com/ubergeek42/weechat-android), a [QT interface](http://www.weechat.org/download/devel/) as well as [web](http://weecloud.jit.su/) and [Emacs](https://github.com/the-kenny/weechat.el) have been developed.
 <!--more-->
@@ -26,7 +26,7 @@ WeeChat as [plenty of features](http://www.weechat.org/about/features/) and part
 * Dynamic filtering of lines ;
 *  and more.
 
-## Installation 
+## Installation
 
 The package is in the official repositories. However, there is a [stable weechat PPA](https://launchpad.net/~nesthib/+archive/weechat-stable) maintained by a [`nesthib`](https://launchpad.net/~nesthib):
 ```bash

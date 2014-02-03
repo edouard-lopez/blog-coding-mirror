@@ -18,7 +18,7 @@ So _Australis_ idea to to redesign the [_Tab Strip_ UI](https://wiki.mozilla.org
 
 Installing should be straight-forward as its the **first barrier for your users** to use your product. In the case of `Australis`'s website, the **design is impeding the installation task**.
 
-Indeed, the only versions available here are the `x86`/`32bits`. So what happen if you are running on a `x86_64`/`64bits` platform? Well you're in a dead-end… 
+Indeed, the only versions available here are the `x86`/`32bits`. So what happen if you are running on a `x86_64`/`64bits` platform? Well you're in a dead-end…
 
 Except if you know how this things work, which means [hitting directly the directory holding the files](https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-ux/).
 
@@ -50,7 +50,7 @@ When trying to download a piece of software directly from the editor website, ma
 
 Be aware that this this kind of detection can **sometimes come in the way** of the user instead of helping him. For instance, I'm French but use a browser with English locale and sometimes I prefer to have content in French. So at least provide of way to switch from one setting to another.
 
-LastPass implementation is nice, as they provide a recommended download, based on their detection, but still **give the possibility** to switch to a different option. 
+LastPass implementation is nice, as they provide a recommended download, based on their detection, but still **give the possibility** to switch to a different option.
 
 So don't assume too much on what users are going to do as it can backfire.
 

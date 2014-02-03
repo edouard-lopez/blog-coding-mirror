@@ -19,20 +19,20 @@ When switching to `tmux` I found the default configuration to manage and navigat
 
 Before I go further, and as most of you already know ([<abbr title="Read The Fucking Manual">RTFM</abbr> of `tmux`](http://www.openbsd.org/cgi-bin/man.cgi?query=tmux))… The `-n` flag used with `bind-key` allows to bind a key directly (_i.e._ without requiring to press <kbd>PREFIX</kbd>):
 
-> if -n is specified, it is not necessary to use the prefix key, command 
+> if -n is specified, it is not necessary to use the prefix key, command
 > is bound to key alone
 
 ## Opening and switching Tabs
 
 I like to have consistent behaviors between my applications. So below is the `tmux` configuration to have the same shortcuts –to open and navigate tabs– as the one in `Firefox`. Edit your `~/.tmux.conf` to add the binding.
 
-```bash 
+```bash
 # Configuration to open new tab with <kbd>Ctrl</kbd>+<kbd>t</kbd>
 # Ctrl-t opens new tab (window)
 bind-key -n C-t new-window
 ```
 
-```bash 
+```bash
 # Configuration to switch tabs with <kbd>Ctrl</kbd>+<kbd>PageUp</kbd> and <kbd>Ctrl</kbd>+<kbd>PageDown</kbd>
 # PageUp to switch to previous tab
 bind-key -n C-PPage previous-window

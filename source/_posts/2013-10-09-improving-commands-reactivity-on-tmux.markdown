@@ -22,7 +22,7 @@ By default, there is a latency time when hitting the <kbd>PREFIX</kbd> because `
 
 So just set this value [below cognitive perceivable threshold (`~200ms`)](http://stackoverflow.com/questions/536300/what-is-the-shortest-perceivable-application-response-delay) :
 ```bash
-# Faster Command Sequences (don't wait for esc/meta-key sequence): 
+# Faster Command Sequences (don't wait for esc/meta-key sequence):
 set -s escape-time 100
 ```
 

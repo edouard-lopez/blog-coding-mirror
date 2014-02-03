@@ -16,7 +16,7 @@ Assuming you didn't already installed [`Octopress` plugin for Sublime Text 2](ht
 
 In `Sublime Text` you've a great deal of way to [customize your experience, and your projects](www.sublimetext.com/docs/2/projects.html):
 
-> sublime-project files are JSON, and support three top level sections: folders, for the included folders, 
+> sublime-project files are JSON, and support three top level sections: folders, for the included folders,
 > settings, for file-setting overrides, and build_systems, for project specific build systems.
 
 ## Creating new post Issue
@@ -40,16 +40,16 @@ All this was due to a misconfiguration as for your configuration to be taken int
     {
       // path to your octopress
       "octopress_path": "/path/to/your/blog-dir",
-    
+
       // the shell to run commands with
       "octopress_shell_executable": "/bin/zsh",
-    
+
       // command to run before calling rake, eg source ~/bash_profile to set up your local environment inc paths to ruby, rake etc.
       "octopress_cmd_before_rake" : "export PATH=$PATH:$HOME/.rvm/bin; source $HOME/.rvm/scripts/rvm && export GEM_HOME=$HOME/.rvm/gems/ruby-1.9.3-p448",
-    
+
       // set to generate, deploy or generate_and_deploy if you wish to have your changes generated into the /public folder and/or deployed upon file save
       "octopress_onsave_action": "generate",
-    
+
       // set to the extension of all new pages. This should be the same as in your Rakefile setting for new_page_ext
       "octopress_page_extension": "md"
     }
@@ -68,7 +68,7 @@ So I fall back to a complete path.
 
 The value of `octopress_cmd_before_rake` was also problematic as sourcing `~/.zshrc` was throwing plenty of error, I narrowed it down to :
 
-1. Export the path to `rvm` bin: 
+1. Export the path to `rvm` bin:
 ```bash
 export PATH=$PATH:$HOME/.rvm/bin;
 ```

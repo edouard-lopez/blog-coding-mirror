@@ -46,7 +46,7 @@ Then set our configurations:
 ## Mozilla
 Here I won't be using `SSL`, so it's a bit simpler. Also I duplicate settings for this server:
 ```bash
-/server add mozilla irc.mozilla.org -port 6667 -auto 
+/server add mozilla irc.mozilla.org -port 6667 -auto
 /set irc.server.mozilla.autojoin "#firefox, #l10n, #webtools "
 
 # re/auto/connect
@@ -75,7 +75,7 @@ Activate logging, set up the UI:
 /set weechat.bar.nicklist.position right
 /layout save
 
-# Nick 
+# Nick
 /set weechat.color.chat_time gray
 /set weechat.bar.status.color_bg gray
 /set weechat.color.chat_nick_self *!lightgreen

@@ -8,7 +8,7 @@ categories: [ shell, productivity, vim, UX ]
 published: true
 ---
 
-As a Linux/Mac user you have already edited file using the command line editor (_e.g._ `vim`, `nano`, `emacs`, etc.). And **you repeat this** tens to hundreds times a day. So what the problem ? 
+As a Linux/Mac user you have already edited file using the command line editor (_e.g._ `vim`, `nano`, `emacs`, etc.). And **you repeat this** tens to hundreds times a day. So what the problem ?
 
 When you attempt to complete this task, your goal to is clear (**_edit_ a file**), but the way to it is full of traps :
 
@@ -51,9 +51,9 @@ No needs my friends. Here is [the source](https://github.com/edouard-lopez/dotfi
     }
 ```
 
-Don't like `e` and prefer to use `v` ? 
+Don't like `e` and prefer to use `v` ?
 No problem, there is room for improvement, feel free to [fork and submit pull requests](https://github.com/edouard-lopez/dotfiles/fork).
-  
+
 ### Update (`2013-nov-19`)
 
 I switch my complex ownership test to a [`POSIX` compatible using the `-w` flag](http://pubs.opengroup.org/onlinepubs/9699919799/utilities/test.html#tag_20_128_04) :
