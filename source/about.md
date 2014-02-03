@@ -15,6 +15,6 @@ I'm a French developer, I studied Cognitive Science and Computer Science and lov
 
 As a Web stack developer, I'm using the best available tools for my job.
 
-* Workflow include: `npm`, `yo`, `bower`, `grunt`, `angularJS`.
+* Workflow include: `angularJS`, `npm`, `yo`, `bower`, `grunt`, `git`.
 * I'm fluent in `PHP`, `JS`, `XSLT`, `bash`, etc.
 * and trained to `UX`/`IA` scopes.
